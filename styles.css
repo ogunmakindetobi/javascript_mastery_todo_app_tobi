@@ -83,8 +83,10 @@ margin-left: 5px;
     margin-bottom: 8px;
     padding: 0 15px;
     position: relative;
-    background: white;
+    background: #f2f2f2;
     border-radius: 3px;
+    
+
 }
 .todoList li span{
     position: absolute;
@@ -94,4 +96,6 @@ margin-left: 5px;
     text-align: center;
     background: cornflowerblue;
     border-radius: 0 3px 3px 0;
+    cursor: pointer;
 }
+
