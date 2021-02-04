@@ -7,21 +7,29 @@
     <meta name="description" content="Todo App">
     <meta name="author" content="CodeWithDragos">
     <link rel="stylesheet" href="styles.css?v=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
 </head>
-
+<section>
+<header class="head-container"></header>
+</section>
 <body>
-    <div class="app-container">
-        <!-- Your code goes here -->
-        <div>
-            <input id="add-todo"></input>
-            <button>Add Todo</button>
-        </div>
-        <div class="todo-list">
-            <div class="todo-row">
-                <p>Finish the project</p>
-                <button>X</button>
-            </div>
-        </div>
+    
+    <div class="wrapper">
+        <header>Todo App </header>
+<div class="inputField">
+<input type="text" placeholder="Add your new todo">
+<button><i class="fas fa-plus"></i></button>
+</div>
+<ul class="todoList">
+<li> Buy a new gaming laptop <span> <i class="fas fa-trash"></i></span></li>
+<li> Complete a previous task <span> <i class="fas fa-trash"></i></span></li>
+<li> Create a video for Youtube <span> <i class="fas fa-trash"></i></span></li>
+<li> Create a new portfolio site <span> <i class="fas fa-trash"></i></span></li>
+</ul>
+<div class="footer">
+<span>You have 4 pending task</span>
+<button>Clear All</button>
+</div>
     </div>
     <script src="scripts.js"></script>
 </body>
