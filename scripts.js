@@ -46,11 +46,11 @@ if(getLocalStrong == null){//  if localstring is null
     inputBox.value = " "; //once task added leave the imput field blank
 }
 //delete task function
-function deleteTask(){
-    let getLocalStrong = localStorage.getItem("New Todo")
+function deleteTask(index){
+    let getLocalStrong = localStorage.getItem("New Todo");
     listArr = JSON.parse(getLocalStrong);
     listArr.splice(index,1); //delete or remove the particular indexed li
-    let getLocalStrong = localStorage.getItem("New Todo", JSON.stringify(listArr)); //
+    localStorage.setItem("New Todo", JSON.stringify(listArr)); //
     showTasks(); // calling showTask function
 }    
 
