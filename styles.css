@@ -11,10 +11,17 @@
 body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom, white 0%, green 100%)
+    background: linear-gradient(to bottom, white 0%, green 100%);
+    font-family: 'Roboto', sans-serif;
 }
 
+header{
+    font-size: 30px;
+}
 
+#title-header{
+    font-weight: 900;
+}
 
 .wrapper{
     margin: 120px auto;
@@ -88,7 +95,11 @@ pointer-events: none;
     position: relative;
     background: #f2f2f2;
     border-radius: 3px;
-    
+    font-weight: 100;
+}
+
+.todoList{
+    padding-left: 0px;
 
 }
 .todoList li span{
